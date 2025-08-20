@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">HND CampSale</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="AboutUs.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="./review.html" class="nav-link">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="./signup.html">Sign Up</a></li>
+          <li class="nav-item"><a class="nav-link" href="./Login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="AddtoCartList.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search Section -->
+  <div class="product_search text-center my-4">
+    <h1>All Products</h1>
+    <input type="text" id="searchInput" placeholder="Search Your Products" class="form-control d-inline-block w-auto">
+    <button id="searchBtn" class="btn btn-primary">Search</button>
+  </div>
+
+  <!-- Products -->
+  <section id="productList" class="card-container d-flex flex-wrap justify-content-center gap-4">
+    <div class="card" style="width: 18rem;">
+      <img src="./Image/SleepingBag.webp" alt="Sleeping Bag">
+      <div class="container p-3">
+        <h2>Sleeping Bag</h2>
+        <p>To feel Comfortable</p>
+        <p class="price">$40.00</p>
+        <div class="btn-container">
+          <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+          <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./Image/ALLWeathertent.jpg" alt="Tent">
+      <div class="container p-3">
+        <h2>Tent</h2>
+        <p>Tent Suitable for all Environment</p>
+        <p class="price">$120.00</p>
+        <div class="btn-container">
+          <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+          <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./Image/Stove.jpeg" alt="Camping Stove">
+      <div class="container p-3">
+        <h2>Camping Stove</h2>
+        <p>Camping Stove Suitable In America</p>
+        <p class="price">$50.00</p>
+        <div class="btn-container">
+          <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+          <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+        </div>
+      </div>
+    </div>
+     <div class="card" style="width: 18rem;">
+    <img src="./Image/headlamp.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Head Lamp</h2>
+      <p>Light</p>
+      <p class="price">$40.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Knife.webp" alt="Tent">
+    <div class="container p-3">
+      <h2>Knife</h2>
+      <p>Knife Suitable for Camping Trip</p>
+      <p class="price">$12.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/ro.jpeg" alt="Camping Stove">
+    <div class="container p-3">
+      <h2>Rope</h2>
+      <p>Rope</p>
+      <p class="price">$10.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/FlashLight.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Flashlight</h2>
+      <p>Recommended Item</p>
+      <p class="price">$25.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/FirstAidKit.jpg" alt="First Aid Kit">
+    <div class="container p-3">
+      <h2>First Aid Kit</h2>
+      <p>Buy First Aid Kit Now</p>
+      <p class="price">$30.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/1backpack.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>BackPack</h2>
+      <p>Durable and Spacious</p>
+      <p class="price">$60.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/MapCompass.jpeg" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Map & Compass</h2>
+      <p>Essential Navigation Tool</p>
+      <p class="price">$15.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 8 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/CampingChair.jpg" alt="Camping Chair">
+    <div class="container p-3">
+      <h2>Camping Chair</h2>
+      <p>Lightweight and Foldable</p>
+      <p class="price">$35.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 9 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Water.jpg" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Portable Shower</h2>
+      <p>Perfect for Hot weathr</p>
+      <p class="price">$90.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 10 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Waterproof boots.jpeg" alt="Hiking Boots">
+    <div class="container p-3">
+      <h2>Boots</h2>
+      <p>Comfortable and Waterproof</p>
+      <p class="price">$95.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+  <!-- Product 11 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Hammock(1).jpg" >
+    <div class="container p-3">
+      <h2>Hammock</h2>
+      <p>Comfortable</p>
+      <p class="price">$195.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+   <!-- Product 12 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/TrailReady Bug Repellent.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>TrailReady Bug Repellent</h2>
+      <p>Safety </p>
+      <p class="price">$12.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+  <!-- Product 13 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Alpine Sleeping Bag.jpeg" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Alpine Sleeping Bag</h2>
+      <p>Thermal sleeping bag suitable for 20°F (-6°C) </p>
+      <p class="price">$60.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+    <!-- Product 14 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/SOS Emergency Flare Kit.webp" style="object-fit: contain;" >
+    <div class="container p-3">
+      <h2>SOS Flare</h2>
+      <p>Waterproof, handheld flares for emergency signaling</p>
+      <p class="price">$25.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+  <!-- Product 15 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/SkyLink Satellite Phone.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Communication</h2>
+      <p>Satellite phone for remote area calls</p>
+      <p class="price">$600.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+   <!-- Product 16 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Thermal Imaging Camera.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Camera</h2>
+      <p>Safety / Navigationy </p>
+      <p class="price">$300.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+  <!-- Product 17 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Satellite messenger devices.jpg" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Communication</h2>
+      <p>Sends text messages via satellite in areas with no coverage </p>
+      <p class="price">$260.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+   <!-- Product 18 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/PortableWater.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Hydration</h2>
+      <p>Filter or UV purifier for safe drinking water </p>
+      <p class="price">$80.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+   <!-- Product 19 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Emergency Food Rations.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Emergency Food Rations</h2>
+      <p>High-calorie, long-shelf-life food bars </p>
+      <p class="price">$30.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+   <!-- Product 20 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Trail Emergency Whist.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Trail Emergency Whistle</h2>
+      <p>Loud whistle for alerting rescuers or group members </p>
+      <p class="price">$10.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+   <!-- Product 21 -->
+  <div class="card" style="width: 18rem;">
+    <img src="./Image/Bear Spray Defense.webp" style="object-fit: contain;">
+    <div class="container p-3">
+      <h2>Bear Spray Defense</h2>
+      <p>Non-lethal self-defense spray against wildlife </p>
+      <p class="price">$40.00</p>
+      <div class="btn-container">
+        <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+        <a href="AddtoCartList.html" class="btn btn-success buy-now">Detail</a>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- Add other products the same way -->
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white py-3 mt-4">
+    <p class="mb-0">&copy; 2025 HND CampSale. All rights reserved.</p>
+    <p class="mb-0"><a href="./Privacy.html">Privacy & Policy</a></p>
+    <p class="mb-0"><a href="./Map.html">Map</a></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Add to Cart Function
+    const addToCartButtons = document.querySelectorAll(".add-to-cart");
+    addToCartButtons.forEach(button => {
+      button.addEventListener("click", (e) => {
+        e.preventDefault();
+        const productCard = button.closest(".card");
+        const product = {
+          name: productCard.querySelector("h2").innerText,
+          description: productCard.querySelector("p").innerText,
+          price: parseFloat(productCard.querySelector(".price").innerText.replace(/[^0-9.]/g, "")),
+          image: productCard.querySelector("img").src
+        };
+
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.push(product);
+        localStorage.setItem("cart", JSON.stringify(cart));
+
+        window.location.href = "AddtoCartList.html";
+      });
+    });
+
+    // Search Function
+    const searchInput = document.getElementById("searchInput");
+    const searchBtn = document.getElementById("searchBtn");
+    const productCards = document.querySelectorAll(".card");
+
+    function filterProducts() {
+      const searchTerm = searchInput.value.toLowerCase().trim();
+      productCards.forEach(card => {
+        const productName = card.querySelector("h2").innerText.toLowerCase();
+        const productDesc = card.querySelector("p").innerText.toLowerCase();
+        card.style.display = (productName.includes(searchTerm) || productDesc.includes(searchTerm)) ? "block" : "none";
+      });
+    }
+
+    searchBtn.addEventListener("click", filterProducts);
+    searchInput.addEventListener("keyup", filterProducts);
+  });
+  </script>
+</body>
+</html>

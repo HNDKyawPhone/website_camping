@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">HND CampSale</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#products">Shop</a></li>
+<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./review.html">Reviews</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="./signup.html">Sign Up</a></li>
+          <li class="nav-item"><a class="nav-link" href="./Login.html ">Login</a></li>
+             <li class="nav-item"><a class="nav-link" href="AddtoCartList.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="login-container">
+    <h1>Login Form</h1>
+    <form action="index.html">
+      <label for="username">User Name</label>
+      <input type="text" name="txtusername" id="username" placeholder="Enter User name..." required>
+
+      <label for="myInput">Password</label>
+      <input type="password" name="txtpassword" id="myInput" placeholder="Enter password..." required>
+
+      <div class="checkbox-label">
+        <input type="checkbox" name="btnCheck" onclick="myFunction()"> Show Password
+      </div>
+
+      <input type="submit" name="btnlogin" value="Login">
+
+      <div class="links">
+        <a href="#">Forgot Password?</a> |
+        <a href="signup.html">Sign Up</a>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      x.type = x.type === "password" ? "text" : "password";
+    }
+  </script>
+
+
+</body>
+</html>
